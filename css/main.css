@@ -1,0 +1,260 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    background-color: #f7f7f7;
+}
+
+#nav {
+    width: 100%;
+    height: 100px;
+}
+
+#nav #logo {
+    width: 14em;
+    float: left;
+    padding-left: 2em;
+}
+
+#nav #name {
+    width: 10em;
+    text-align: center;
+    float: left;
+    margin-top: 2em;
+    margin-left: 51em;
+    font-size: 14px;
+}
+
+#nav #user {
+    width: 4em;
+    border-radius: 100%;
+    float: left;
+    margin-left: 2em;
+    margin-top: 1.1em;
+}
+
+#orange {
+    width: auto;
+    height: 20px;
+    background-color: #f7b617;
+}
+
+
+/*estilo del aside*/
+
+aside {
+    /*outline: 1px solid #000;*/
+    width: 20em;
+    height: 30em;
+    margin-top: 3em;
+    margin-left: 30px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+aside #titulo {
+    text-align: center;
+}
+
+aside #titulo h1 {
+    margin-top: 1em;
+}
+
+aside #slc {
+    margin-left: -21px;
+}
+
+aside #slc h3 {
+    padding-left: 2em;
+}
+
+aside #slc select {
+    border: thin solid #fff;
+    margin-left: 2em;
+    width: 15em;
+    height: 2em;
+    font-size: 1.2em;
+}
+
+aside #slc select:focus {
+    outline: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 4em;
+    margin-top: 0.5em;
+    color: #000;
+}
+aside .nav {
+    margin-top: 3em;
+
+}
+
+aside .nav h1{
+    display: block;
+    width: 100%;
+    height: 2em;
+    background-color: transparent;
+    border: none;
+
+}
+
+aside .nav h1:hover {
+    background-color: #f7b617;
+    color: #fff;
+    cursor: pointer;
+}
+
+aside .nav input:focus {
+    outline: none;
+}
+
+
+/*estilo del main*/
+
+main {
+    /*outline: 1px solid #e90c0c;*/
+    width: 72%;
+    display: inline-block;
+    position: absolute;
+    background-color: #f7f7f7;
+}
+
+main #student-present {
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+main #student-present div {
+    display: inline-block;
+    width: 29%;
+    background-color: #fff;
+    padding-left: 1em;
+    margin-left: 13px;
+}
+
+main #student-present #enrolled div {
+    /*outline: 1px solid #b5f10f;*/
+    height: 60px;
+    width: 90px;
+    background-color: #eaeaea;
+}
+
+main #student-present #achievement div {
+    /*outline: 1px solid #b5f10f;*/
+    height: 60px;
+    width: 90px;
+    background-color: #eaeaea;
+}
+
+main #student-present #score div {
+    /*outline: 1px solid #b5f10f;*/
+    height: 60px;
+    width: 90px;
+    background-color: #eaeaea;
+}
+
+main #tech-skills {
+    /*outline: 1px solid #0ff187;*/
+    position: relative;
+    background-color: #fff;
+    width: 91%;
+    height: 390px;
+    margin-left: 29px;
+    margin-top: 27px;
+    padding-left: 2em;
+}
+
+#tech-skills #resu {
+    width: 100%;
+}
+
+#tech-skills h3 {
+    display: inline-block;
+}
+
+#tech-skills select {
+    display: inline-block;
+    border: thin solid #fff;
+    margin-left: 2em;
+    width: 15em;
+    height: 2em;
+    font-size: 1em;
+}
+
+#tech-skills select:focus {
+    outline: none;
+}
+
+#tech-skills #cuadros {
+    width: 100%;
+}
+
+#tech-skills #totalSkill {
+    height: 60px;
+    width: 90px;
+    background-color: #eaeaea;
+    display: inline-block;
+}
+
+#tech-skills #porcentaje {
+    height: 60px;
+    width: 90px;
+    background-color: #eaeaea;
+    display: inline-block;
+}
+
+#tech-skills #graph {
+    width: 100%;
+}
+
+#tech-skills #graph div {
+    display: inline-block;
+}
+
+main #life-skills {
+    /* outline: 1px solid #f1a20f;*/
+    position: relative;
+}
+
+main #life-skills div {
+    display: inline-block;
+}
+
+main #rating div {
+    /* outline: 1px solid #0f71f1;*/
+    display: inline-block;
+    width: 30%;
+}
+
+/*students*/
+
+.alumnas{
+    margin-left: 25em;
+    margin-top: -27em;
+    width: 53em;
+    height: 40em;
+    background-color: #DCDCDC;
+}
+
+.buscador{
+    margin-left:30em;
+    margin-top: 0.7em;
+    height: 2.5em;
+    width: 30em;
+    padding-left: 0.5em;
+}
+
+.foto{
+    margin-left: 1em;
+    margin-top: 1em;
+    height: 20em;
+    width: 20em;
+    background-color: grey;
+
+}
+
